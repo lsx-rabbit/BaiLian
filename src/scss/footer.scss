@@ -1,0 +1,215 @@
+#footer{
+    padding-top:30px;
+    background:#f3f3f3;
+    .footer-con{
+        .footer-box{
+            width:1100px;
+            margin:0 auto;
+            .top-list{
+                height:170px;
+                padding:24px 0;
+                .list-one{
+                    width:200px;
+                    margin:0 10px;
+                    .list-one-tit{
+                        width:200px;
+                        height:40px;
+                        line-height: 40px;
+                        font-size:16px;
+                        color:#000;
+                        .icon1{
+                            float:left;
+                            width:40px;
+                            height:40px;
+                            margin-right: 15px;
+                            background:url("../image/footer1200_sprite.png") no-repeat 0 0;
+    
+                        }                      
+                    }
+                    ul.first{
+                        margin-left:55px;
+                        font-size:13px;
+                        line-height: 26px;
+                        color:#555;
+                    }
+                }
+
+                .list-two{
+                    width:200px;
+                    margin:0 10px;
+                    .list-two-tit{
+                        width:200px;
+                        height:40px;
+                        line-height: 40px;
+                        font-size:16px;
+                        color:#000;
+                        .icon2{
+                            float:left;
+                            width:40px;
+                            height:40px;
+                            margin-right: 15px;
+                            background:url("../image/footer1200_sprite.png") no-repeat 0 -40px;
+    
+                        }                      
+                    }
+                    ul.sec{
+                        margin-left:55px;
+                        font-size:13px;
+                        line-height: 26px;
+                        color:#555;
+                    }
+                }
+
+                .list-three{
+                    width:200px;
+                    margin:0 10px;
+                    .list-three-tit{
+                        width:200px;
+                        height:40px;
+                        line-height: 40px;
+                        font-size:16px;
+                        color:#000;
+                        .icon3{
+                            float:left;
+                            width:40px;
+                            height:40px;
+                            margin-right: 15px;
+                            background:url("../image/footer1200_sprite.png") no-repeat 0 -80px;
+    
+                        }                      
+                    }
+                    ul.three{
+                        margin-left:55px;
+                        font-size:13px;
+                        line-height: 26px;
+                        color:#555;
+                    }
+                }
+
+                .list-four{
+                    width:200px;
+                    margin:0 10px;
+                    .list-four-tit{
+                        width:200px;
+                        height:40px;
+                        line-height: 40px;
+                        font-size:16px;
+                        color:#000;
+                        .icon4{
+                            float:left;
+                            width:40px;
+                            height:40px;
+                            margin-right: 15px;
+                            background:url("../image/footer1200_sprite.png") no-repeat 0 -120px;
+    
+                        }                      
+                    }
+                    ul.four{
+                        margin-left:55px;
+                        font-size:13px;
+                        line-height: 26px;
+                        color:#555;
+                    }
+                }
+
+                .list-five{
+                    width:200px;
+                    margin:0 10px;
+                    .list-five-tit{
+                        width:200px;
+                        height:40px;
+                        line-height: 40px;
+                        font-size:16px;
+                        color:#000;
+                        .icon5{
+                            float:left;
+                            width:40px;
+                            height:40px;
+                            margin-right: 15px;
+                            background:url("../image/footer1200_sprite.png") no-repeat 0 -160px;
+    
+                        }                      
+                    }
+                    ul.five{
+                        margin-left:55px;
+                        font-size:13px;
+                        line-height: 26px;
+                        color:#555;
+                    }
+                }
+
+                
+            }
+
+            // bottom list
+
+            .bottom-list{
+                height:168px;
+                line-height:24px;
+                text-align: center;
+                padding:15px 0 0;
+                color:#999;
+                background:#f3f3f3;
+
+                div.about{
+                    line-height: 24px;
+                    text-align: center;
+                    a{
+                        color:#333;
+                        text-decoration: none;
+                    }
+                    span{
+                        padding:0 8px;
+                    }
+                }
+            }
+
+
+            // copyright
+            .copyright{
+                line-height: 24px;
+                text-align:center;
+                color:#999;
+                background:#f3f3f3;
+            }
+
+            .network,.lic{
+                padding-top:5px;
+                height: 16px;
+                line-height: 16px;
+                a{
+                    font-size:12px;
+                    color:#666;
+                }
+            }
+
+            .police{
+                width: 100%;
+                text-align: center;
+                padding:10px 0 20px;
+                a{
+                    display:inline-block;
+                    height:20px;
+                    line-height: 20px;
+                    margin-right: 10px;
+
+                    img{
+                        width:20px;
+                        height:20px;
+                        float:left;
+                    }
+
+                    span{
+                        float: left;
+                        height:20px;
+                        line-height: 20px;
+                        margin-left:5px;
+                        color:#999;
+                        padding:0 8px;
+                    }
+                }
+            }
+        }
+ 
+    }
+}

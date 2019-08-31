@@ -1,0 +1,344 @@
+#header{
+    width:100%;
+    height:110px;
+    .header-con{
+        width:950px;
+        height:110px;
+        margin:0 auto;
+        .header-logo{
+            float:left;
+            width:159px;
+            height:57px;
+            margin-top:29px;
+            img{
+                width:100%;
+            }
+        }
+        .reg{
+            float:left;
+            width:127px;
+            height:57px;
+            margin-top:29px;
+        }
+    }
+}
+
+// login-main
+.login-main{
+    height:543px;
+    padding:30px 0 25px;
+    background:url("../image/login-body.jpg") no-repeat center bottom;
+    .login-main-con{
+        width:488px;
+        height:531px;
+        margin:0 auto;
+        border: 6px solid #e2e2e2;
+        background:#fff;
+        .login-content{
+            width:300px;
+            height:441px;
+            margin:0 94px;
+            padding:45px 0;
+            .login-tit{
+                height:45px;
+                line-height:45px;
+                p{
+                    font-size:18px;
+                    color:#000;
+                }
+                a{
+                    color:#08c;
+                }
+            }
+            // === 用于验证用户名的div 样式
+            .conf-user{
+                height:26px;
+                margin-top:5px;
+                background:pink;
+                line-height:26px;
+                text-align: center;
+                width:287px;
+                border-radius: 10px;
+            }
+            .hidden{
+                display:none;
+            }
+
+            .conf-pw{
+                height:26px;
+                margin-top:5px;
+                background:pink;
+                line-height:26px;
+                text-align: center;
+                width:287px;
+                border-radius: 10px;
+            }
+            .nomatch{
+                height:26px;
+                margin-top:5px;
+                background:pink;
+                line-height:26px;
+                text-align: center;
+                width:287px;
+                border-radius: 10px;
+            }
+
+            // 用户名
+            div.username{
+                width:300px;
+                height:36px;
+                padding-bottom: 10px;
+                margin-top:10px;
+
+                input{
+                    width:250px;
+                    height:34px;
+                    padding-left:35px;
+                    background:url("../image/register.png") no-repeat 10px 9px;
+                    border:1px solid #ccc;
+                }
+            }
+
+            // 密码
+            div.password{
+                width:300px;
+                height:36px;
+                padding-bottom: 10px;
+                margin-top:10px;
+
+                input{
+                    width:250px;
+                    height:34px;
+                    padding-left:35px;
+                    background:url("../image/register.png") no-repeat 10px -52px;
+                    border:1px solid #ccc;
+                }
+            }
+
+            div.forget{
+                width:300px;
+                height: 30px;
+                line-height: 30px;
+                padding-bottom: 10px;
+                a{
+                    color:#666;
+                    text-decoration: none;
+                }
+            }
+            div.login{
+                width:300px;
+                height:36px;            
+                .login-sub{
+                    width:300px;
+                    height:36px;
+                    background:#e6133c;
+                    border:1px solid #ccc;
+                    color:#fff;
+                    font-size:16px;
+                }
+            }
+            div.login-right{
+                width:300px;
+                height:52px;
+                line-height: 52px;
+                text-align:right;
+                background:url("../image/right-icon.png") no-repeat 160px 20px;
+            }
+
+            div.other-login{
+                height:49px;
+                line-height:49px;
+                div.other-bottom{
+                    height:24px;
+                    line-height: 49px;
+                    border-bottom:1px solid #ddd;
+                    text-align:center; 
+
+                    span{
+                        background:#fff;
+                        padding:0 15px;
+                        color:#999;
+                        line-height: 49px;
+                    }
+                }
+            }
+
+            div.login-logo{
+                width:320px;
+                height:44px;
+                margin-top:10px;
+                a:nth-of-type(1){
+                    display: inline-block;
+                    width:66px;
+                    height:22px;
+                    background:url("../image/login-cion-1.png") no-repeat center bottom;
+                    margin: 0 0 10px 30px;
+
+                    &:hover{
+                        background-position: 0 0;
+                    }
+                }
+                a:nth-of-type(2){
+                    display: inline-block;
+                    width:66px;
+                    height:22px;
+                    background:url("../image/login-cion-2.png") no-repeat center bottom;
+                    margin: 0 0 10px 30px;
+
+                    &:hover{
+                        background-position: 0 0;
+                    }
+                }
+                a:nth-of-type(3){
+                    display: inline-block;
+                    width:66px;
+                    height:22px;
+                    background:url("../image/login-cion-3.png") no-repeat center bottom;
+                    margin: 0 0 10px 30px;
+
+                    &:hover{
+                        background-position: 0 0;
+                    }
+                }
+                a:nth-of-type(4){
+                    display: inline-block;
+                    width:66px;
+                    height:22px;
+                    background:url("../image/login-cion-4.png") no-repeat center bottom;
+                    margin: 0 0 10px 30px;
+
+                    &:hover{
+                        background-position: 1px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// footer
+#footer{
+    padding-top:30px;
+    background:#fff;
+    .footer-con{
+        .footer-box{
+            width:1100px;
+            margin:0 auto;
+
+            // bottom list
+
+            .bottom-list{
+                height:168px;
+                line-height:24px;
+                text-align: center;
+                padding:15px 0 0;
+                color:#999;
+                background:#fff;
+
+                div.about{
+                    line-height: 24px;
+                    text-align: center;
+                    a{
+                        color:#333;
+                        text-decoration: none;
+                    }
+                    span{
+                        padding:0 8px;
+                    }
+                }
+            }
+
+
+            // copyright
+            .copyright{
+                line-height: 24px;
+                text-align:center;
+                color:#999;
+                background:#fff;
+            }
+
+            .network,.lic{
+                padding-top:5px;
+                height: 16px;
+                line-height: 16px;
+                a{
+                    font-size:12px;
+                    color:#666;
+                }
+            }
+
+            .police{
+                width: 100%;
+                text-align: center;
+                padding:10px 0 20px;
+                a{
+                    display:inline-block;
+                    height:20px;
+                    line-height: 20px;
+                    margin-right: 10px;
+
+                    img{
+                        width:20px;
+                        height:20px;
+                        float:left;
+                    }
+
+                    span{
+                        float: left;
+                        height:20px;
+                        line-height: 20px;
+                        margin-left:5px;
+                        color:#999;
+                        padding:0 8px;
+                    }
+                }
+            }
+        }
+ 
+    }
+}
+
+// 登录成功的跳转页面
+.login-success{
+    width:700px;
+    height:400px;
+    background:#90c223;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border-radius: 50px;
+    display:none;
+    div.duihao{
+        margin:0 auto;
+        img{
+            width:250px;
+            height:250px;
+            margin-left:220px;
+        }
+    }
+    div.word{
+        font-size:30px;
+        text-align:center;
+    }
+    div.go3{
+        margin-top:5px;
+        text-align: center;
+        font-size:20px;
+        span{
+            color:red;
+        }
+    }
+    div.goright{
+        margin-top:10px;
+        text-align: center;
+        font-size:20px;
+        a{
+            color:blue;
+            text-decoration: underline;
+        }
+    }
+    
+}

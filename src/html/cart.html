@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/cart.css">
+    <title>Document</title>
+</head>
+<body>
+     <!-- 百联集团top-wrap -->
+     <div id="top-wrap">
+        <div class="w top-nav">
+            <ul class="l left">
+                <li class="l one">百联集团旗下全渠道电商平台<i></i></li>
+                <li class="l two"><a href="#">网站导航<i></i></a>
+                    <!-- 二级菜单 -->
+                    <ul class="links">
+                        <li><a href="#">百联集团官网</a></li>
+                        <li><a href="#">安付宝网</a></li>
+                        <li><a href="#">第一医药</a></li>
+                        <li class="member"><a href="#">OK会员卡专区</a></li>
+                    </ul>
+                </li>
+                <li class="l thr"><a href="#">消息</a></li>
+            </ul>
+
+            <!-- right nav -->
+            <ul class="r right">
+                <li class="l one">
+                    <a class="login" href="html/login.html" target="_blank"><i></i><span>请登录</span></a>
+                    <a class="register" href="javascript:void()">退出</a>
+                    <b></b>
+                </li>
+                <li class="l order">
+                    <a href="#">我的订单</a>
+                    <b></b>
+                </li>
+                <li class="l my">
+                    <a href="#">我的百联<i></i></a>
+                    <b></b>
+                    <ul class="mylist">
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的评价</a></li>
+                        <li><a href="#">我的积分</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的优惠券</a></li>
+                    </ul>
+                </li>
+                <li class="l pay">
+                    <a href="#">充值缴费<i></i></a>
+                    <b></b>
+                    <ul class="paylist">
+                        <li class="noborder">
+                            <p>水电煤缴费</p>
+                            <a href="#">缴费首页</a>
+                            <a href="#">水费缴费</a>
+                            <a href="#">电费缴费</a>
+                            <a href="#">燃气缴费</a>
+                        </li>
+                        <li>
+                            <p>手机充值</p>
+                            <a href="#">手机充值</a>
+                            <a href="#">流量充值</a>
+                        </li>
+                        <li>
+                            <p>其他缴费</p>
+                            <a href="#">固话宽带充值</a>
+                            <a href="#">铁通缴费</a>
+                            <a href="#">有线电视缴费</a>
+                        </li>
+                        <li>
+                            <p>游戏点卡</p>
+                            <a href="#">腾讯Q币充值</a>
+                            <a href="#">盛大点券充值</a>
+                            <a href="#">更多游戏</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="l ser">
+                    <a href="#">客户服务<i></i></a>
+                    <b></b>
+                    <ul class="serlist">
+                        <li><a href="#">在线客服</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                    </ul>
+                </li>
+                <li class="l hand">
+                    <a href="#">掌上百联<i></i></a>
+                    <b></b>
+                    <div class="handlist">
+                        <div class="left l">
+                            <img src="../image/erweima1.jpg">
+                            <p class="wechat">i百联微信</p>
+                            <p class="red">扫一扫关注</p>
+                        </div>
+                        <div class="right l">
+                            <img src="../image/erweima2.jpg">
+                            <p class="wechat">i百联APP</p>
+                            <p class="red">手机购物更方便</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="l cart">
+                    <a href="#">购物车</a>
+                    <b></b>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- 百联logo -->
+    <div id="header">
+        <div class="w header-con">
+            <div class="l header-left">
+                <h1 class="l">
+                    <a href="../index.html"><img src="../image/header-logo.png"></a>
+                </h1>
+                <div class="l second-logo">
+                    购物车
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart购物车详情 -->
+    <div class="cart-wrap">
+        <div class="cart-title">
+            <div class="l name">全部商品<span>0</span></div>
+            <div class="r send-message">
+                <div class="l message-name">配送至</div>
+                <div class="l address-line">上海市黄浦区</div>
+            </div>
+        </div>
+
+        <!-- 购物车内容 -->
+        <div class="cart-table">
+            <!-- 购物车标题 -->
+            <div class="cart-head">
+                <!-- 全选按钮 -->
+                <label class="l name"><input type="checkbox" class="all"><span>全选</span></label>
+                <!-- 商品信息 -->
+                <div class="l item">商品信息</div>
+                <!-- 单价 -->
+                <div class="l price">单价（元）</div>
+                <!-- 件数 -->
+                <div class="l number">件数</div>
+                <!-- 金额 -->
+                <div class="l total-price">金额（元）</div>
+                <!-- 操作 -->
+                <div class="l action">操作</div>
+            </div>
+
+
+            <!-- 内容要append进这个里面 -->
+            <div class="cart-body-wrap">
+            
+            <!-- append这个购物车内容 -->
+            <!-- <div class="cart-body">
+               
+                <div class="cart-body-name">
+                    <label><input type="checkbox" class="shop"><i></i><span>i百联自营1</span></label>
+                    <div class="r free"><a href="#">免运费凑单</a></div>
+                    <div class="r fee">运费:¥5</div>
+                </div>
+              
+                <div class="cart-body-con">
+                    <label class="l"><input type="checkbox" class="product"></label>
+                    <div class="l item-box">
+                        <a href="#" class="l"><img src="../image/cart1.jpg"></a>
+                        <div class="l item-name"><a href="#"> 巴黎水（Perrier）天然有气矿泉水（原味）气泡水 330... </a></div>
+                    </div>
+                    <div class="l type-box"></div>
+                    <div class="l item-price-box">
+                        <div class="price-detail">¥125.00</div>
+                    </div>
+                    <div class="l number-box">
+                        <button type="submit" class="l minus">-</button>
+                        <span class="count l">1</span>
+                        <button type="submit" class="l add">+</button>
+                    </div>
+                    <div class="l price-box">¥125.00</div>
+                    <div class="r action-box">
+                        <a href="#">移入收藏夹</a>
+                        <a href="javascript:void(0);" class="remove">删除</a>
+                    </div>
+                </div>
+            </div> -->
+
+             
+        </div>
+                <!-- 总计 -->
+                <div class="pay-list">
+                    <div class="pay-detail">
+                        <label><input type="checkbox" class="pay-all"><span>全选</span></label>
+                        <a class="del" href="#"><i></i>删除</a>
+                        <a class="clear" href="#">清除失效商品</a>
+                        <a class="addto" href="#">移入收藏夹</a>
+                        <button type="submit" class="r pay">去结算</button>
+                        <div class="r message"> 
+                                <span>商品金额（不含运费）：</span>
+                                <span class="total">¥0.00</span>
+                        </div>
+                        <a class="r choose" href="#">已选择<span class="nums">0</span>件商品</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/cart.js"></script>
+    <!-- <script src="../js/product.js"></script> -->
+    
+</body>
+</html>

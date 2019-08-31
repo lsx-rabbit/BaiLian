@@ -1,0 +1,224 @@
+#footer {
+  padding-top: 30px;
+  background: #f3f3f3;
+}
+
+#footer .footer-con .footer-box {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#footer .footer-con .footer-box .top-list {
+  height: 170px;
+  padding: 24px 0;
+}
+
+#footer .footer-con .footer-box .top-list .list-one {
+  width: 200px;
+  margin: 0 10px;
+}
+
+#footer .footer-con .footer-box .top-list .list-one .list-one-tit {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #000;
+}
+
+#footer .footer-con .footer-box .top-list .list-one .list-one-tit .icon1 {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background: url("../image/footer1200_sprite.png") no-repeat 0 0;
+}
+
+#footer .footer-con .footer-box .top-list .list-one ul.first {
+  margin-left: 55px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #555;
+}
+
+#footer .footer-con .footer-box .top-list .list-two {
+  width: 200px;
+  margin: 0 10px;
+}
+
+#footer .footer-con .footer-box .top-list .list-two .list-two-tit {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #000;
+}
+
+#footer .footer-con .footer-box .top-list .list-two .list-two-tit .icon2 {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background: url("../image/footer1200_sprite.png") no-repeat 0 -40px;
+}
+
+#footer .footer-con .footer-box .top-list .list-two ul.sec {
+  margin-left: 55px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #555;
+}
+
+#footer .footer-con .footer-box .top-list .list-three {
+  width: 200px;
+  margin: 0 10px;
+}
+
+#footer .footer-con .footer-box .top-list .list-three .list-three-tit {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #000;
+}
+
+#footer .footer-con .footer-box .top-list .list-three .list-three-tit .icon3 {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background: url("../image/footer1200_sprite.png") no-repeat 0 -80px;
+}
+
+#footer .footer-con .footer-box .top-list .list-three ul.three {
+  margin-left: 55px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #555;
+}
+
+#footer .footer-con .footer-box .top-list .list-four {
+  width: 200px;
+  margin: 0 10px;
+}
+
+#footer .footer-con .footer-box .top-list .list-four .list-four-tit {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #000;
+}
+
+#footer .footer-con .footer-box .top-list .list-four .list-four-tit .icon4 {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background: url("../image/footer1200_sprite.png") no-repeat 0 -120px;
+}
+
+#footer .footer-con .footer-box .top-list .list-four ul.four {
+  margin-left: 55px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #555;
+}
+
+#footer .footer-con .footer-box .top-list .list-five {
+  width: 200px;
+  margin: 0 10px;
+}
+
+#footer .footer-con .footer-box .top-list .list-five .list-five-tit {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #000;
+}
+
+#footer .footer-con .footer-box .top-list .list-five .list-five-tit .icon5 {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  background: url("../image/footer1200_sprite.png") no-repeat 0 -160px;
+}
+
+#footer .footer-con .footer-box .top-list .list-five ul.five {
+  margin-left: 55px;
+  font-size: 13px;
+  line-height: 26px;
+  color: #555;
+}
+
+#footer .footer-con .footer-box .bottom-list {
+  height: 168px;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0 0;
+  color: #999;
+  background: #f3f3f3;
+}
+
+#footer .footer-con .footer-box .bottom-list div.about {
+  line-height: 24px;
+  text-align: center;
+}
+
+#footer .footer-con .footer-box .bottom-list div.about a {
+  color: #333;
+  text-decoration: none;
+}
+
+#footer .footer-con .footer-box .bottom-list div.about span {
+  padding: 0 8px;
+}
+
+#footer .footer-con .footer-box .copyright {
+  line-height: 24px;
+  text-align: center;
+  color: #999;
+  background: #f3f3f3;
+}
+
+#footer .footer-con .footer-box .network, #footer .footer-con .footer-box .lic {
+  padding-top: 5px;
+  height: 16px;
+  line-height: 16px;
+}
+
+#footer .footer-con .footer-box .network a, #footer .footer-con .footer-box .lic a {
+  font-size: 12px;
+  color: #666;
+}
+
+#footer .footer-con .footer-box .police {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 20px;
+}
+
+#footer .footer-con .footer-box .police a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+#footer .footer-con .footer-box .police a img {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#footer .footer-con .footer-box .police a span {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 5px;
+  color: #999;
+  padding: 0 8px;
+}
+/*# sourceMappingURL=footer.css.map */

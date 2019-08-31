@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../scss/register.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header-con">
+            <h1 class="header-logo">
+                <a href="#"><img src="../image/logon-logo.png"></a>
+            </h1>
+            <div class="reg">
+                <img src="../image/V3login-font4.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div id="main">
+        <div class="main-con">
+            <div class="main-tit">
+                <div class="l tit-left">您好，感谢您加入i百联</div>
+                <div class="r tit-right">如有账号，请点击
+                    <a href="login.html">登录</a></div>
+            </div>
+            <div class="main-body">
+                <div class="reg-body">
+                    <!-- 用户名 -->
+                    <div class="username">
+                        <div class="l left"><i>* </i>用户名 :&nbsp;</div>
+                        <div class="l right">
+                            <input type="text" id="user" name="username" placeholder="6-20位字符，支持字母或字母与数字组合">
+                        </div>
+                        <span class="user-validation"></span>
+                    </div>
+                    <!-- 密码 -->
+                    <div class="password">
+                        <div class="l left"><i>* </i>登录密码 :&nbsp;</div>
+                        <div class="l right">
+                            <input type="text" id="pw" name="password" placeholder="8-20位字符，至少使用两种字符组合">
+                        </div>
+                        <span class="pw-validation"></span>
+                    </div>
+                    <!-- 确认密码 -->
+                    <div class="confirm-pw">
+                        <div class="l left"><i>* </i>确认密码 :&nbsp;</div>
+                        <div class="l right">
+                            <input type="text" name="confirm-password" placeholder="请再次输入密码">
+                        </div>
+                        <span class="confirm-validation"></span>
+                    </div>
+                    <!-- 手机号 -->
+                    <div class="phone">
+                        <div class="l left">手机号 :&nbsp;</div>
+                        <div class="l right">
+                            <input type="text" name="phone" placeholder="请输入11位手机号码">
+                        </div>
+                    </div>
+
+                    <!-- 验证码 -->
+                    <div class="confirm-code">
+                        <div class="l left">验证码 :&nbsp;</div>
+                        <div class="l right">
+                            <input type="text" name="confirm-code" placeholder="请输入验证码">
+                        </div>
+                    </div>
+
+                    <!-- 电子邮箱 -->
+                    <div class="email">
+                            <div class="l left">电子邮箱 :&nbsp;</div>
+                            <div class="l right">
+                                <input type="text" name="email" placeholder="请输入有效邮箱">
+                            </div>
+                    </div>
+
+                    <!-- 已阅读 -->
+                    <div class="agree">
+                        <label>
+                            <input type="checkbox" checked >我已阅读并同意
+                        </label>
+                        <a href="#">《百联通会员注册协议》、</a>
+                        <a href="#">《安付宝用户服务协议》、</a>
+                        <a href="#">《安付宝隐私权政策》</a>
+                    </div>
+                   
+                    <!-- 提交按钮 -->
+                    <div class="reg-btn">
+                        <button class="regis" type="button">立即注册 完成绑定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- footer -->
+     <div id="footer">
+            <div class="w footer-con clear">
+                <div class="footer-box">
+                    <div class="bottom-list">
+                        <div class="about">
+                            <a href="#">关于我们</a>
+                            <span>|</span>
+                            <a href="#">联系我们</a>
+                            <span>|</span>
+                            <a href="#">加盟合作</a>
+                            <span>|</span>
+                            <a href="#">诚征英才</a>
+                            <span>|</span>
+                            <a href="#">友情链接</a>
+                            <span>|</span>
+                            <a href="#">新零售合作</a>
+                            <span>|</span>
+                        </div>
+    
+                        <div class="copyright">
+                            百联集团有限公司版权所有
+                            <span>|</span>
+                            客服电话：400-900-8800
+                            <span>|</span>
+                            沪ICP备15028847号
+                            <span>|</span>
+                        </div>
+    
+                        <div class="network">
+                            <a href="#">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+                        </div>
+                        <div class="lic">
+                            <a href="#">全渠道增值电信业务经营许可证</a>
+                        </div>
+    
+                        <div class="police">
+                            <a href="#"><img src="../image/gongan.png"><span>沪公网安备  31010102002366号</span></a>
+                            <a href="#"><img src="../image/gongs.png"><span>上海工商</span></a>
+                            <a href="#"><img src="../image/zhizhao.png"><span>经营执照</span></a>
+                            <a href="#"><img src="../image/wangjing1.png"><span>网购大家评</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- 注册成功后 显示的页面 -->
+          <div class="success">
+            <div class="duihao"><img src="../image/timg (1).jpg"></div>
+            <div class="word">恭喜您，注册成功</div>
+            <div class="gologin"><a href="login.html">去登录</a></div>
+        </div>
+
+        <script src="../js/jquery-3.4.1.min.js"></script>
+        <script src="../js/register.js"></script>
+</body>
+
+</html>

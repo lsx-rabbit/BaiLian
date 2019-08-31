@@ -1,0 +1,194 @@
+// 超值团
+#czt{
+    width: 100%;
+    height:250px;
+    padding:20px 0;
+    overflow: hidden;
+    div.czt-con{
+        height:250px;
+
+        div.czt-left{
+            width:224px;
+            height:250px;
+            position: relative;
+            z-index:150;
+            overflow: hidden;
+
+            img{
+                width:100%;
+                z-index:100;
+                transition:all .2s;
+                &:hover{
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
+        }                     
+            div.czt-right{
+                width:965px;
+                height:248px;
+                background:#fff;
+                position: relative;
+                overflow: hidden;
+                border:1px solid #e4e4e4;
+                border-left:0;
+    
+                ul.first{
+                    width:4000px;
+                    height:250px;
+                    position: absolute;
+                    left:0;
+                    transition:left .3s;
+    
+                    li.l{
+                        width:140px;
+                        height:227px;
+                        padding:0 10px;
+                        border-right:1px dashed #e4e4e4;
+                        img{
+                            width:140px;
+                            margin-bottom:2px;
+                            transition: all .2s;
+                            &:hover{
+                                transform: scale(1.1);
+                                cursor: pointer;
+                            }
+                        }
+                        a.info{
+                            display:block;
+                            height:40px;
+                            line-height: 20px;
+                            color:#333;
+                        }
+                        p.red{
+                            color:#ff6f6f;
+                            font-weight:700;
+                            line-height:26px;
+                            font-size:16px;
+                        }
+                        p.gray{
+                            color:#bbb;
+                        }
+                    }
+                }
+
+                a.next{
+                    position: absolute;
+                    width:20px;
+                    height:50px;
+                    background:url(../image/slider2/new_czt_next.png) no-repeat;
+                    top: 99px;
+                    right:6px;
+                    display:block;
+                }
+                a.prev{
+                    position: absolute;
+                    width:20px;
+                    height:50px;
+                    background:url(../image/slider2/new_czt_prev.png) no-repeat;
+                    top: 99px;
+                    left:6px;
+                    display:none;
+                }
+        }
+
+        }
+    }
+
+    // 相见恨晚
+#show-item{
+    width:100%;
+    height:370px;
+    padding-bottom:20px;
+
+    .show-item-con{
+        height:370px;
+       
+        .show-left{
+            width:305px;
+            height:370px;
+            position: relative;
+            overflow: hidden;
+            .show-slide{
+                width:915px;
+                height:370px;
+                position:absolute;
+                top:0;
+                left:0;
+                transition: left .4s;
+                li.show-img{
+                    width:305px;
+                    float:left;
+                    top:0;
+                    left:0;
+                    transition: all .3s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+                img{
+                    width:100%;
+                }
+            } 
+            
+            .show-dots{
+                width:84px;
+                height:14px;
+                position: absolute;
+                top:340px;
+                left:33px;
+                li.prev{
+                    width:30px;
+                    height:6px;
+                    margin-right:10px;
+                    background:#fff;
+                    position: relative;
+                    a.secondone{
+                        position: absolute;
+                        top:0;
+                        left:0;
+                        width:0px;
+                        height:6px;
+                    }
+                }
+                li.next{
+                    width:30px;
+                    height:6px;
+                    margin-right:10px;
+                    background:#fff;
+                    position: relative;
+                    a.firstone{
+                        position: absolute;
+                        top:0;
+                        left:0;
+                        width:0px;
+                        height:6px;
+                    }
+                }
+            }
+        }
+
+        .show-right{
+            width:885px;
+            height:337px;
+
+            li.right-img{
+                width:285px;
+                height:180px;
+                background:green;
+                margin-left:10px;
+                margin-bottom: 10px;
+                overflow: hidden;
+                img{
+                    width:285px;
+                    overflow: hidden;
+                    transition: all .3s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+
+    }
+}

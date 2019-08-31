@@ -1,0 +1,220 @@
+#czt {
+  width: 100%;
+  height: 250px;
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+#czt div.czt-con {
+  height: 250px;
+}
+
+#czt div.czt-con div.czt-left {
+  width: 224px;
+  height: 250px;
+  position: relative;
+  z-index: 150;
+  overflow: hidden;
+}
+
+#czt div.czt-con div.czt-left img {
+  width: 100%;
+  z-index: 100;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+#czt div.czt-con div.czt-left img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#czt div.czt-con div.czt-right {
+  width: 965px;
+  height: 248px;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e4e4e4;
+  border-left: 0;
+}
+
+#czt div.czt-con div.czt-right ul.first {
+  width: 4000px;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  -webkit-transition: left .3s;
+  transition: left .3s;
+}
+
+#czt div.czt-con div.czt-right ul.first li.l {
+  width: 140px;
+  height: 227px;
+  padding: 0 10px;
+  border-right: 1px dashed #e4e4e4;
+}
+
+#czt div.czt-con div.czt-right ul.first li.l img {
+  width: 140px;
+  margin-bottom: 2px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+#czt div.czt-con div.czt-right ul.first li.l img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+#czt div.czt-con div.czt-right ul.first li.l a.info {
+  display: block;
+  height: 40px;
+  line-height: 20px;
+  color: #333;
+}
+
+#czt div.czt-con div.czt-right ul.first li.l p.red {
+  color: #ff6f6f;
+  font-weight: 700;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+#czt div.czt-con div.czt-right ul.first li.l p.gray {
+  color: #bbb;
+}
+
+#czt div.czt-con div.czt-right a.next {
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  background: url(../image/slider2/new_czt_next.png) no-repeat;
+  top: 99px;
+  right: 6px;
+  display: block;
+}
+
+#czt div.czt-con div.czt-right a.prev {
+  position: absolute;
+  width: 20px;
+  height: 50px;
+  background: url(../image/slider2/new_czt_prev.png) no-repeat;
+  top: 99px;
+  left: 6px;
+  display: none;
+}
+
+#show-item {
+  width: 100%;
+  height: 370px;
+  padding-bottom: 20px;
+}
+
+#show-item .show-item-con {
+  height: 370px;
+}
+
+#show-item .show-item-con .show-left {
+  width: 305px;
+  height: 370px;
+  position: relative;
+  overflow: hidden;
+}
+
+#show-item .show-item-con .show-left .show-slide {
+  width: 915px;
+  height: 370px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: left .4s;
+  transition: left .4s;
+}
+
+#show-item .show-item-con .show-left .show-slide li.show-img {
+  width: 305px;
+  float: left;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#show-item .show-item-con .show-left .show-slide li.show-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#show-item .show-item-con .show-left .show-slide img {
+  width: 100%;
+}
+
+#show-item .show-item-con .show-left .show-dots {
+  width: 84px;
+  height: 14px;
+  position: absolute;
+  top: 340px;
+  left: 33px;
+}
+
+#show-item .show-item-con .show-left .show-dots li.prev {
+  width: 30px;
+  height: 6px;
+  margin-right: 10px;
+  background: #fff;
+  position: relative;
+}
+
+#show-item .show-item-con .show-left .show-dots li.prev a.secondone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 6px;
+}
+
+#show-item .show-item-con .show-left .show-dots li.next {
+  width: 30px;
+  height: 6px;
+  margin-right: 10px;
+  background: #fff;
+  position: relative;
+}
+
+#show-item .show-item-con .show-left .show-dots li.next a.firstone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 6px;
+}
+
+#show-item .show-item-con .show-right {
+  width: 885px;
+  height: 337px;
+}
+
+#show-item .show-item-con .show-right li.right-img {
+  width: 285px;
+  height: 180px;
+  background: green;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#show-item .show-item-con .show-right li.right-img img {
+  width: 285px;
+  overflow: hidden;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#show-item .show-item-con .show-right li.right-img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=czt.css.map */

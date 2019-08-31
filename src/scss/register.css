@@ -1,0 +1,331 @@
+@charset "UTF-8";
+body {
+  background: #f9f9f8;
+}
+
+#header {
+  width: 100%;
+  height: 110px;
+}
+
+#header .header-con {
+  width: 950px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+#header .header-con .header-logo {
+  float: left;
+  width: 159px;
+  height: 57px;
+  margin-top: 29px;
+}
+
+#header .header-con .header-logo img {
+  width: 100%;
+}
+
+#header .header-con .reg {
+  float: left;
+  width: 127px;
+  height: 57px;
+  margin-top: 29px;
+}
+
+#main .main-con {
+  width: 950px;
+  height: 650px;
+  margin: 0 auto;
+  border: 1px solid #e1dfda;
+  background: #fff;
+}
+
+#main .main-con .main-tit {
+  height: 30px;
+  border-bottom: 1px solid #e1dfda;
+  padding: 10px 20px;
+  line-height: 30px;
+}
+
+#main .main-con .main-tit .tit-left {
+  font-size: 16px;
+  color: #ff002a;
+}
+
+#main .main-con .main-tit .tit-right {
+  color: #63625d;
+}
+
+#main .main-con .main-tit .tit-right a {
+  color: #0088cc;
+}
+
+#main .main-con .main-body {
+  width: 759px;
+  height: 488px;
+  padding: 50px 0px 74px 191px;
+}
+
+#main .main-con .main-body .reg-body .username, #main .main-con .main-body .reg-body .password, #main .main-con .main-body .reg-body .confirm-pw, #main .main-con .main-body .reg-body .phone, #main .main-con .main-body .reg-body .confirm-code, #main .main-con .main-body .reg-body .email {
+  width: 759px;
+  height: 36px;
+  padding: 10px 0px;
+}
+
+#main .main-con .main-body .reg-body .username span.user-validation, #main .main-con .main-body .reg-body .username span.pw-validation, #main .main-con .main-body .reg-body .username span.confirm-validation, #main .main-con .main-body .reg-body .password span.user-validation, #main .main-con .main-body .reg-body .password span.pw-validation, #main .main-con .main-body .reg-body .password span.confirm-validation, #main .main-con .main-body .reg-body .confirm-pw span.user-validation, #main .main-con .main-body .reg-body .confirm-pw span.pw-validation, #main .main-con .main-body .reg-body .confirm-pw span.confirm-validation, #main .main-con .main-body .reg-body .phone span.user-validation, #main .main-con .main-body .reg-body .phone span.pw-validation, #main .main-con .main-body .reg-body .phone span.confirm-validation, #main .main-con .main-body .reg-body .confirm-code span.user-validation, #main .main-con .main-body .reg-body .confirm-code span.pw-validation, #main .main-con .main-body .reg-body .confirm-code span.confirm-validation, #main .main-con .main-body .reg-body .email span.user-validation, #main .main-con .main-body .reg-body .email span.pw-validation, #main .main-con .main-body .reg-body .email span.confirm-validation {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  margin-left: 60px;
+}
+
+#main .main-con .main-body .reg-body .username .user-validation.ok, #main .main-con .main-body .reg-body .password .user-validation.ok, #main .main-con .main-body .reg-body .confirm-pw .user-validation.ok, #main .main-con .main-body .reg-body .phone .user-validation.ok, #main .main-con .main-body .reg-body .confirm-code .user-validation.ok, #main .main-con .main-body .reg-body .email .user-validation.ok {
+  color: green;
+}
+
+#main .main-con .main-body .reg-body .username .user-validation.ok::after, #main .main-con .main-body .reg-body .password .user-validation.ok::after, #main .main-con .main-body .reg-body .confirm-pw .user-validation.ok::after, #main .main-con .main-body .reg-body .phone .user-validation.ok::after, #main .main-con .main-body .reg-body .confirm-code .user-validation.ok::after, #main .main-con .main-body .reg-body .email .user-validation.ok::after {
+  content: "√";
+}
+
+#main .main-con .main-body .reg-body .username .user-validation.ng, #main .main-con .main-body .reg-body .password .user-validation.ng, #main .main-con .main-body .reg-body .confirm-pw .user-validation.ng, #main .main-con .main-body .reg-body .phone .user-validation.ng, #main .main-con .main-body .reg-body .confirm-code .user-validation.ng, #main .main-con .main-body .reg-body .email .user-validation.ng {
+  color: red;
+}
+
+#main .main-con .main-body .reg-body .username .user-validation.ng::after, #main .main-con .main-body .reg-body .password .user-validation.ng::after, #main .main-con .main-body .reg-body .confirm-pw .user-validation.ng::after, #main .main-con .main-body .reg-body .phone .user-validation.ng::after, #main .main-con .main-body .reg-body .confirm-code .user-validation.ng::after, #main .main-con .main-body .reg-body .email .user-validation.ng::after {
+  content: "用户名为6-20位字符，支持字母或字母与数字组合";
+}
+
+#main .main-con .main-body .reg-body .username .pw-validation.ok, #main .main-con .main-body .reg-body .password .pw-validation.ok, #main .main-con .main-body .reg-body .confirm-pw .pw-validation.ok, #main .main-con .main-body .reg-body .phone .pw-validation.ok, #main .main-con .main-body .reg-body .confirm-code .pw-validation.ok, #main .main-con .main-body .reg-body .email .pw-validation.ok {
+  color: green;
+}
+
+#main .main-con .main-body .reg-body .username .pw-validation.ok::after, #main .main-con .main-body .reg-body .password .pw-validation.ok::after, #main .main-con .main-body .reg-body .confirm-pw .pw-validation.ok::after, #main .main-con .main-body .reg-body .phone .pw-validation.ok::after, #main .main-con .main-body .reg-body .confirm-code .pw-validation.ok::after, #main .main-con .main-body .reg-body .email .pw-validation.ok::after {
+  content: "√";
+}
+
+#main .main-con .main-body .reg-body .username .pw-validation.ng, #main .main-con .main-body .reg-body .password .pw-validation.ng, #main .main-con .main-body .reg-body .confirm-pw .pw-validation.ng, #main .main-con .main-body .reg-body .phone .pw-validation.ng, #main .main-con .main-body .reg-body .confirm-code .pw-validation.ng, #main .main-con .main-body .reg-body .email .pw-validation.ng {
+  color: red;
+}
+
+#main .main-con .main-body .reg-body .username .pw-validation.ng::after, #main .main-con .main-body .reg-body .password .pw-validation.ng::after, #main .main-con .main-body .reg-body .confirm-pw .pw-validation.ng::after, #main .main-con .main-body .reg-body .phone .pw-validation.ng::after, #main .main-con .main-body .reg-body .confirm-code .pw-validation.ng::after, #main .main-con .main-body .reg-body .email .pw-validation.ng::after {
+  content: "密码不能为空，且为8-20位字符";
+}
+
+#main .main-con .main-body .reg-body .username .confirm-validation.ok, #main .main-con .main-body .reg-body .password .confirm-validation.ok, #main .main-con .main-body .reg-body .confirm-pw .confirm-validation.ok, #main .main-con .main-body .reg-body .phone .confirm-validation.ok, #main .main-con .main-body .reg-body .confirm-code .confirm-validation.ok, #main .main-con .main-body .reg-body .email .confirm-validation.ok {
+  color: green;
+}
+
+#main .main-con .main-body .reg-body .username .confirm-validation.ok::after, #main .main-con .main-body .reg-body .password .confirm-validation.ok::after, #main .main-con .main-body .reg-body .confirm-pw .confirm-validation.ok::after, #main .main-con .main-body .reg-body .phone .confirm-validation.ok::after, #main .main-con .main-body .reg-body .confirm-code .confirm-validation.ok::after, #main .main-con .main-body .reg-body .email .confirm-validation.ok::after {
+  content: "√";
+}
+
+#main .main-con .main-body .reg-body .username .confirm-validation.ng, #main .main-con .main-body .reg-body .password .confirm-validation.ng, #main .main-con .main-body .reg-body .confirm-pw .confirm-validation.ng, #main .main-con .main-body .reg-body .phone .confirm-validation.ng, #main .main-con .main-body .reg-body .confirm-code .confirm-validation.ng, #main .main-con .main-body .reg-body .email .confirm-validation.ng {
+  color: red;
+}
+
+#main .main-con .main-body .reg-body .username .confirm-validation.ng::after, #main .main-con .main-body .reg-body .password .confirm-validation.ng::after, #main .main-con .main-body .reg-body .confirm-pw .confirm-validation.ng::after, #main .main-con .main-body .reg-body .phone .confirm-validation.ng::after, #main .main-con .main-body .reg-body .confirm-code .confirm-validation.ng::after, #main .main-con .main-body .reg-body .email .confirm-validation.ng::after {
+  content: "密码不相匹配";
+}
+
+#main .main-con .main-body .reg-body .username .left, #main .main-con .main-body .reg-body .password .left, #main .main-con .main-body .reg-body .confirm-pw .left, #main .main-con .main-body .reg-body .phone .left, #main .main-con .main-body .reg-body .confirm-code .left, #main .main-con .main-body .reg-body .email .left {
+  width: 136px;
+  height: 36px;
+  line-height: 36px;
+  color: #333;
+  text-align: right;
+  font-size: 15px;
+}
+
+#main .main-con .main-body .reg-body .username .left i, #main .main-con .main-body .reg-body .password .left i, #main .main-con .main-body .reg-body .confirm-pw .left i, #main .main-con .main-body .reg-body .phone .left i, #main .main-con .main-body .reg-body .confirm-code .left i, #main .main-con .main-body .reg-body .email .left i {
+  color: #df3d36;
+}
+
+#main .main-con .main-body .reg-body .username .right, #main .main-con .main-body .reg-body .password .right, #main .main-con .main-body .reg-body .confirm-pw .right, #main .main-con .main-body .reg-body .phone .right, #main .main-con .main-body .reg-body .confirm-code .right, #main .main-con .main-body .reg-body .email .right {
+  width: 302px;
+  height: 36px;
+  padding-left: 5px;
+}
+
+#main .main-con .main-body .reg-body .username .right input, #main .main-con .main-body .reg-body .password .right input, #main .main-con .main-body .reg-body .confirm-pw .right input, #main .main-con .main-body .reg-body .phone .right input, #main .main-con .main-body .reg-body .confirm-code .right input, #main .main-con .main-body .reg-body .email .right input {
+  width: 302px;
+  height: 36px;
+  padding: 0 10px 0 30px;
+  background: url("../image/register.png") no-repeat 10px 9px;
+  border: 1px solid #ccc;
+}
+
+#main .main-con .main-body .reg-body .password .right input, #main .main-con .main-body .reg-body .confirm-pw .right input, #main .main-con .main-body .reg-body .confirm-code .right input {
+  background: url("../image/register.png") no-repeat 10px -52px;
+}
+
+#main .main-con .main-body .reg-body .phone .right input {
+  background: url("../image/register.png") no-repeat 10px -180px;
+}
+
+#main .main-con .main-body .reg-body .confirm-code .right {
+  width: 200px;
+}
+
+#main .main-con .main-body .reg-body .confirm-code .right input {
+  width: 200px;
+}
+
+#main .main-con .main-body .reg-body .email .right input {
+  background: url("../image/register.png") no-repeat 10px -287px;
+}
+
+#main .main-con .main-body .reg-body .agree {
+  height: 55px;
+  padding-left: 140px;
+  line-height: 18px;
+  padding-top: 5px;
+  background: #fff;
+}
+
+#main .main-con .main-body .reg-body .agree a {
+  color: #0088ca;
+}
+
+#main .main-con .main-body .reg-body .reg-btn {
+  width: 300px;
+  padding-left: 134px;
+}
+
+#main .main-con .main-body .reg-body .reg-btn button {
+  width: 300px;
+  height: 36px;
+  background: #e6133c;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+  margin-left: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#footer {
+  padding-top: 30px;
+  background: #f9f9f8;
+}
+
+#footer .footer-con .footer-box {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+#footer .footer-con .footer-box .bottom-list {
+  height: 168px;
+  line-height: 24px;
+  text-align: center;
+  padding: 15px 0 0;
+  color: #999;
+  background: #f9f9f8;
+}
+
+#footer .footer-con .footer-box .bottom-list div.about {
+  line-height: 24px;
+  text-align: center;
+}
+
+#footer .footer-con .footer-box .bottom-list div.about a {
+  color: #333;
+  text-decoration: none;
+}
+
+#footer .footer-con .footer-box .bottom-list div.about span {
+  padding: 0 8px;
+}
+
+#footer .footer-con .footer-box .copyright {
+  line-height: 24px;
+  text-align: center;
+  color: #999;
+  background: #f9f9f8;
+}
+
+#footer .footer-con .footer-box .network, #footer .footer-con .footer-box .lic {
+  padding-top: 5px;
+  height: 16px;
+  line-height: 16px;
+}
+
+#footer .footer-con .footer-box .network a, #footer .footer-con .footer-box .lic a {
+  font-size: 12px;
+  color: #666;
+}
+
+#footer .footer-con .footer-box .police {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 20px;
+}
+
+#footer .footer-con .footer-box .police a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+
+#footer .footer-con .footer-box .police a img {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+#footer .footer-con .footer-box .police a span {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 5px;
+  color: #999;
+  padding: 0 8px;
+}
+
+div.success {
+  width: 700px;
+  height: 400px;
+  background: #90c223;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50px;
+  display: none;
+}
+
+div.success div.duihao {
+  margin: 0 auto;
+}
+
+div.success div.duihao img {
+  width: 250px;
+  height: 250px;
+  margin-left: 220px;
+}
+
+div.success div.word {
+  font-size: 40px;
+  text-align: center;
+}
+
+div.success div.gologin {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background: yellow;
+  margin-left: 150px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+div.success div.gologin a {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+/*# sourceMappingURL=register.css.map */

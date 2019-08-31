@@ -1,0 +1,45 @@
+div.success {
+  width: 700px;
+  height: 400px;
+  background: #90c223;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50px;
+  opacity: 0;
+}
+
+div.success div.duihao {
+  margin: 0 auto;
+}
+
+div.success div.duihao img {
+  width: 250px;
+  height: 250px;
+  margin-left: 220px;
+}
+
+div.success div.word {
+  font-size: 40px;
+  text-align: center;
+}
+
+div.success div.gologin {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background: yellow;
+  margin-left: 150px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+div.success div.gologin a {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+/*# sourceMappingURL=alert-register.css.map */

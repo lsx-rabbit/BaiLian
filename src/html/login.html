@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../scss/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+            <div class="header-con">
+                <h1 class="header-logo">
+                    <a href="#"><img src="../image/logon-logo.png"></a>
+                </h1>
+                <div class="reg">
+                    <img src="../image/logon-logofont.png">
+                </div>
+            </div>
+    </div>
+
+    <!-- main -->
+    <div class="login-main">
+        <div class="login-main-con">
+            <div class="login-content">
+                <div class="login-tit">
+                    <p class="l">会员登录</p>
+                    <a class ="r" href="./register.html">注册新账号</a>
+                </div>
+                <!-- 后台验证div  -->
+                <div class="conf-user hidden">用户名不对</div>
+                <div class="conf-pw hidden">密码不对</div>
+                <div class="nomatch hidden">用户名密码不匹配</div>
+                <!-- 用户名 -->
+                <div class="username">   
+                    <input type="text" placeholder="用户名/手机号/邮箱" name="username" id="user">
+                </div>
+                <!-- 密码 -->
+                <div class="password">   
+                    <input type="text" placeholder="密码" name="password" id="pw">
+                </div>
+                <!--  忘记密码 -->
+                <div class="forget">
+                    <a class="r" href="#">忘记密码?</a>
+                </div>
+                <!-- 登录button -->
+                <div class="login">
+                    <button type="submit" class="login-sub">登 录</button>
+                </div>
+
+                <div class="login-right">百联通会员卡首次登录</div>
+
+                <div class="other-login">
+                    <div class="other-bottom">
+                        <span>其他账号联合登录</span>
+                    </div>
+                </div>
+
+                <div class="login-logo">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="w footer-con clear">
+            <div class="footer-box">
+                <div class="bottom-list">
+                    <div class="about">
+                        <a href="#">关于我们</a>
+                        <span>|</span>
+                        <a href="#">联系我们</a>
+                        <span>|</span>
+                        <a href="#">加盟合作</a>
+                        <span>|</span>
+                        <a href="#">诚征英才</a>
+                        <span>|</span>
+                        <a href="#">友情链接</a>
+                        <span>|</span>
+                        <a href="#">新零售合作</a>
+                        <span>|</span>
+                    </div>
+
+                    <div class="copyright">
+                        百联集团有限公司版权所有
+                        <span>|</span>
+                        客服电话：400-900-8800
+                        <span>|</span>
+                        沪ICP备15028847号
+                        <span>|</span>
+                    </div>
+
+                    <div class="network">
+                        <a href="#">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+                    </div>
+                    <div class="lic">
+                        <a href="#">全渠道增值电信业务经营许可证</a>
+                    </div>
+
+                    <div class="police">
+                        <a href="#"><img src="../image/gongan.png"><span>沪公网安备  31010102002366号</span></a>
+                        <a href="#"><img src="../image/gongs.png"><span>上海工商</span></a>
+                        <a href="#"><img src="../image/zhizhao.png"><span>经营执照</span></a>
+                        <a href="#"><img src="../image/wangjing1.png"><span>网购大家评</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登录成功的跳转页面 -->
+    <div class="login-success">
+        <div class="duihao"><img src="../image/timg (1).jpg"></div>
+        <div class="word">恭喜您，登录成功</div>
+        <div class="go3">系统将在<span>3</span>秒后自动跳转到首页</div>
+        <div class="goright"><a href="../index.html">您也可以点击这里直接跳转到首页</a></div>
+    </div>
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

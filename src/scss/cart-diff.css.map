@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AACA,0BAA0B;AAC1B,AAAA,UAAU,CAAA;EACN,KAAK,EAAC,KAAK;EACX,MAAM,EAAC,MAAM;CAChB",
+    "sources": [
+        "cart-diff.scss"
+    ],
+    "names": [],
+    "file": "cart-diff.css"
+}

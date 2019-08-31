@@ -1,0 +1,325 @@
+body{
+    background:#f9f9f8;
+}
+#header{
+    width:100%;
+    height:110px;
+    .header-con{
+        width:950px;
+        height:110px;
+        margin:0 auto;
+        .header-logo{
+            float:left;
+            width:159px;
+            height:57px;
+            margin-top:29px;
+            img{
+                width:100%;
+            }
+        }
+        .reg{
+            float:left;
+            width:127px;
+            height:57px;
+            margin-top:29px;
+        }
+    }
+}
+
+
+//main
+#main{  
+    .main-con{
+        width:950px;
+        height:650px;
+        margin:0 auto;
+        border: 1px solid #e1dfda;
+        background:#fff;
+        .main-tit{
+            height:30px;
+            border-bottom: 1px solid #e1dfda;
+            padding:10px 20px;
+            line-height:30px;
+            .tit-left{
+                font-size:16px;
+                color:#ff002a
+            }
+            .tit-right{
+                color:#63625d;
+                a{
+                    color:#0088cc;
+                }
+            }
+        }
+
+        .main-body{
+            width:759px;
+            height:488px;
+            padding: 50px 0px 74px 191px;
+            .reg-body{
+                .username,.password,.confirm-pw,.phone,.confirm-code,.email{
+                    width:759px;
+                    height:36px;
+                    padding:10px 0px;
+
+                    // 验证样式           
+                    span.user-validation,span.pw-validation,span.confirm-validation{
+                        display:inline-block;
+                        width:170px;
+                        height:30px; 
+                        margin-left:60px;                       
+                    }
+
+                    .user-validation.ok{
+                        color:green;
+                    }
+                    .user-validation.ok::after{
+                        content:"√"
+                    }
+                    .user-validation.ng{
+                        color:red;
+                    }
+                    .user-validation.ng::after{
+                        content:"用户名为6-20位字符，支持字母或字母与数字组合"
+                    }
+                
+                    .pw-validation.ok{
+                        color:green
+                    }
+                    .pw-validation.ok::after{
+                        content:"√"
+                    }
+                
+                    .pw-validation.ng{
+                        color:red;
+                    }
+                    .pw-validation.ng::after{
+                        content:"密码不能为空，且为8-20位字符"
+                    }
+
+                    .confirm-validation.ok{
+                        color:green
+                    }
+                    .confirm-validation.ok::after{
+                        content:"√"
+                    }
+                
+                    .confirm-validation.ng{
+                        color:red;
+                    }
+                    .confirm-validation.ng::after{
+                        content:"密码不相匹配"
+                    }
+                
+
+                    .left{
+                        width:136px;
+                        height:36px;
+                        line-height:36px;
+                        color:#333;
+                        text-align:right;
+                        font-size:15px;
+                        i{
+                            color:#df3d36;
+                        }
+                    }
+                    .right{
+                        width:302px;
+                        height:36px;
+                        padding-left:5px;
+                        input{
+                            width:302px;
+                            height:36px;
+                            padding: 0 10px 0 30px;
+                            background:url("../image/register.png") no-repeat 10px 9px;
+                            border:1px solid #ccc;
+                        }
+                    }
+
+                }
+                .password,.confirm-pw,.confirm-code{
+                    .right{
+                        input{
+                            background:url("../image/register.png") no-repeat 10px -52px;
+                        }
+                    }
+                  
+                }
+                .phone{
+                    .right{
+                        input{
+                            background:url("../image/register.png") no-repeat 10px -180px;
+                        }
+                    }
+                }
+                .confirm-code{
+                    .right{
+                        width:200px;
+                        input{
+                            width:200px;
+                        }
+                    }
+                }
+                .email{
+                    .right{
+                        input{
+                            background:url("../image/register.png") no-repeat 10px -287px;
+                        }
+                    }
+                }
+// 已阅读
+                .agree{
+                    height:55px;
+                    padding-left:140px;
+                    line-height: 18px;
+                    padding-top:5px;
+                    background:#fff;
+                    a{
+                        color:#0088ca
+                    }
+                }
+
+                .reg-btn{
+                    width:300px;
+                    padding-left:134px;
+                    button{
+                        width:300px;
+                        height:36px;
+                        background:#e6133c;
+                        font-size:16px;
+                        text-align: center;
+                        line-height: 36px;
+                        color:#fff;
+                        margin-left:6px;
+                        border:none;
+                        outline: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// footer
+#footer{
+    padding-top:30px;
+    background:#f9f9f8;
+    .footer-con{
+        .footer-box{
+            width:1100px;
+            margin:0 auto;
+
+            // bottom list
+
+            .bottom-list{
+                height:168px;
+                line-height:24px;
+                text-align: center;
+                padding:15px 0 0;
+                color:#999;
+                background:#f9f9f8;
+
+                div.about{
+                    line-height: 24px;
+                    text-align: center;
+                    a{
+                        color:#333;
+                        text-decoration: none;
+                    }
+                    span{
+                        padding:0 8px;
+                    }
+                }
+            }
+
+
+            // copyright
+            .copyright{
+                line-height: 24px;
+                text-align:center;
+                color:#999;
+                background:#f9f9f8;
+            }
+
+            .network,.lic{
+                padding-top:5px;
+                height: 16px;
+                line-height: 16px;
+                a{
+                    font-size:12px;
+                    color:#666;
+                }
+            }
+
+            .police{
+                width: 100%;
+                text-align: center;
+                padding:10px 0 20px;
+                a{
+                    display:inline-block;
+                    height:20px;
+                    line-height: 20px;
+                    margin-right: 10px;
+
+                    img{
+                        width:20px;
+                        height:20px;
+                        float:left;
+                    }
+
+                    span{
+                        float: left;
+                        height:20px;
+                        line-height: 20px;
+                        margin-left:5px;
+                        color:#999;
+                        padding:0 8px;
+                    }
+                }
+            }
+        }
+ 
+    }
+}
+
+// 注册成功后的显示页面
+div.success{
+    width:700px;
+    height:400px;
+    background:#90c223;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border-radius: 50px;
+    display:none;
+    div.duihao{
+        margin:0 auto;
+        img{
+            width:250px;
+            height:250px;
+            margin-left:220px;
+        }
+    }
+    div.word{
+        font-size:40px;
+        text-align:center;
+    }
+    div.gologin{
+        width:400px;
+        height:50px;
+        text-align: center;
+        background:yellow;
+        margin-left:150px;
+        margin-top:30px;
+        border-radius: 30px;
+        a{
+            font-size:30px;
+            text-align: center ;
+            text-decoration: none;
+        }
+    }
+}
